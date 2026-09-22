@@ -28,6 +28,12 @@ _작업소스/**/before_upload/
 # Backup folder (잔재 백업, git 제외)
 _백업/
 
+# 전체 캡처 산출물(확인용, 용량 큼) 및 임시 조각 폴더 - git 제외
+*_전체.jpg
+*_전체.png
+_tmp_stitch_*/
+_tmp_verify/
+
 # Excel (원본 데이터, 원칙상 저장소에 두지 않음 - source of truth는 작업용.html)
 *.xlsx
 ~$*.xlsx
