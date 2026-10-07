@@ -1,0 +1,859 @@
+{
+  "createdAt": "2026-10-07T07:53:56.584Z",
+  "settings": {
+    "serverFolder": "2610_kakaotalk_deal",
+    "s3Base": "https://aws-childy-image.s3.ap-northeast-2.amazonaws.com/img/outdoor2026/promotion",
+    "channelUrl": "https://pf.kakao.com/_nfxkLT",
+    "finalLabel": "최종가",
+    "colorText": "code",
+    "newPrefix": "",
+    "indexDate": "2026. 10. 07",
+    "indexStatus": "done"
+  },
+  "event": {
+    "sections": {
+      "main": true,
+      "channel": true,
+      "gifts": true,
+      "tokdeal": true
+    },
+    "custom": {
+      "main": "",
+      "channel": "",
+      "gifts": "",
+      "tokdeal": ""
+    },
+    "title": "미소맘 X 아웃도어 프로덕츠 키즈 가을 패션위크 공구 특가 OPEN",
+    "collab": {
+      "mode": "text",
+      "text": "미소맘",
+      "logo": "talkdeal-logo.png"
+    },
+    "mainImage": "",
+    "coupon": {
+      "show": true,
+      "label": "톡채널 플친 전용 쿠폰",
+      "amount": "3,000"
+    },
+    "titleLines": [
+      "키즈 가을 패션위크",
+      "공구 특가 OPEN"
+    ],
+    "channelButton": {
+      "text": "톡채널 친구추가 바로가기 >>"
+    },
+    "giftTitle": "구매사은품 혜택",
+    "gifts": [
+      {
+        "condition": "5만원 이상 구매 시",
+        "item": "핫팩 파우치 증정",
+        "note": "(컬러 랜덤)",
+        "badge": "",
+        "code": ""
+      },
+      {
+        "condition": "10만원 이상 구매 시",
+        "item": "아웃도어 바디백 증정",
+        "note": "(컬러 랜덤)",
+        "badge": "선착순 50명",
+        "code": ""
+      }
+    ],
+    "giftNotesTitle": "[사은품 배송 유의사항]",
+    "giftNotes": [
+      "각 사은품 증정 조건 충족 시, 사은품이 모두 증정됩니다.",
+      "사은품은 동일 운송장으로 출고되는 주문건에 한하여 지급됩니다.",
+      "동일 주소지라도 수령인명, 연락처, 주소 정보가 다를 경우 별도 출고되며, 이 경우 주문금액은 합산되지 않습니다.",
+      "사은품은 소진 시 별도 공지 없이 종료될 수 있습니다.",
+      "사은품은 실결제금액(할인 적용 후)을 기준으로 지급됩니다.",
+      "사은품은 행사 기간 내 ID, 수령인명, 연락처, 주소지 등을 종합적으로 확인하여 고객당 1회만 지급됩니다.",
+      "동일 고객이 여러 건의 주문을 진행하더라도 중복 지급되지 않으며, 주문을 분리하여 결제한 경우에도 사은품은 1회만 제공됩니다.",
+      "상품 전체 반품 시 사은품도 함께 반품해 주셔야 합니다.",
+      "미회수 시 사은품 금액이 차감되거나 추가 배송비가 부과될 수 있습니다.",
+      "교환 시 사은품은 반송하지 않으셔도 되며, 교환 상품만 보내주세요.",
+      "사은품을 함께 보내신 경우에도 사은품은 재지급되지 않습니다."
+    ],
+    "tokdealTitle": "톡딜 혜택",
+    "period": "10/16(금) 17시 ~ 10/19(월) 23:59",
+    "channelCoupon": {
+      "show": true,
+      "tag": "카카오톡 채널",
+      "lead": "‘차일디’ 플러스친구 추가하면",
+      "main": "3,000원 쿠폰 즉시 지급",
+      "note": "2만원 이상 구매 시 사용 가능"
+    },
+    "pay": {
+      "show": true,
+      "tag": "카카오 결제 혜택",
+      "headline": "쿠폰 + 페이 더블 할인",
+      "groups": [
+        {
+          "title": "데일리 쿠폰 발급",
+          "sub": "매일 오전 8시 발행, 쿠폰 종류별 일별 1장",
+          "lines": [
+            {
+              "main": "2만원 이상 2,000원",
+              "note": ""
+            },
+            {
+              "main": "5만원 이상 5,000원",
+              "note": ""
+            },
+            {
+              "main": "10만원 이상 1만원",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "페이 할인",
+          "sub": "횟수 무제한 / 카카오페이 스킴끼리는 중복 불가",
+          "lines": [
+            {
+              "main": "2만원 이상 10% 최대 1만원 할인",
+              "note": "(카카오페이머니 결제 시)"
+            },
+            {
+              "main": "20만원 이상 상품 결제 시 7% 최대 30만원",
+              "note": "(카카오페이 머니/카드)"
+            }
+          ]
+        }
+      ]
+    },
+    "shipping": {
+      "show": true,
+      "text": "전 상품 무료배송"
+    }
+  },
+  "items": [
+    {
+      "id": "OD263ODJ02",
+      "src": {
+        "seq": 1,
+        "code": "OD263ODJ02",
+        "name": "경량 다운 자켓",
+        "category": "다운 점퍼",
+        "colors": [
+          "BLK",
+          "CRE",
+          "SBL"
+        ],
+        "colorNames": [
+          "블랙",
+          "크림",
+          "스카이 블루"
+        ],
+        "thumbColor": "CRE",
+        "tag": 129000,
+        "deal": 74000,
+        "final": 59400,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263OVT03",
+      "src": {
+        "seq": 2,
+        "code": "OD263OVT03",
+        "name": "경량 다운베스트",
+        "category": "베스트",
+        "colors": [
+          "BEI",
+          "CHC"
+        ],
+        "colorNames": [
+          "베이지",
+          "차콜"
+        ],
+        "thumbColor": "CHC",
+        "tag": 119000,
+        "deal": 71000,
+        "final": 56700,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS01",
+      "src": {
+        "seq": 3,
+        "code": "OD263ILS01",
+        "name": "멀티 스트라이프 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "BLU",
+          "BRN",
+          "NVY"
+        ],
+        "colorNames": [
+          "블루",
+          "브라운",
+          "네이비"
+        ],
+        "thumbColor": "BLU",
+        "tag": 45000,
+        "deal": 27000,
+        "final": 19800,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS02",
+      "src": {
+        "seq": 4,
+        "code": "OD263ILS02",
+        "name": "단스트라이프 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "DGY",
+          "LKH"
+        ],
+        "colorNames": [
+          "딥그레이",
+          "연카키"
+        ],
+        "thumbColor": "DGY",
+        "tag": 45000,
+        "deal": 27000,
+        "final": 19800,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS03",
+      "src": {
+        "seq": 5,
+        "code": "OD263ILS03",
+        "name": "배색 레이어드 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "BLK",
+          "BLU"
+        ],
+        "colorNames": [
+          "블랙",
+          "블루"
+        ],
+        "thumbColor": "BLK",
+        "tag": 42000,
+        "deal": 27000,
+        "final": 19800,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD264IMM01",
+      "src": {
+        "seq": 6,
+        "code": "OD264IMM01",
+        "name": "폴라플리스 포켓 맨투맨",
+        "category": "맨투맨",
+        "colors": [
+          "DGY",
+          "MLG",
+          "OTM"
+        ],
+        "colorNames": [
+          "딥그레이",
+          "멜란지",
+          "오트밀"
+        ],
+        "thumbColor": "OTM",
+        "tag": 55000,
+        "deal": 35000,
+        "final": 27000,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/6.OD264IMM01_OTM.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD264IZM07",
+      "src": {
+        "seq": 7,
+        "code": "OD264IZM07",
+        "name": "폴라플리스 배색 반집업",
+        "category": "집업맨투맨",
+        "colors": [
+          "MLG",
+          "OTM"
+        ],
+        "colorNames": [
+          "멜란지",
+          "오트밀"
+        ],
+        "thumbColor": "MLG",
+        "tag": 62000,
+        "deal": 40000,
+        "final": 31500,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/7.OD264IZM07_MLG.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD264IZM08",
+      "src": {
+        "seq": 8,
+        "code": "OD264IZM08",
+        "name": "폴라폴리스 패턴 스냅 풀오버",
+        "category": "집업맨투맨",
+        "colors": [
+          "BEI",
+          "NVY"
+        ],
+        "colorNames": [
+          "베이지",
+          "네이비"
+        ],
+        "thumbColor": "NVY",
+        "tag": 79000,
+        "deal": 51000,
+        "final": 38700,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/8.OD264IZM08_NVY.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD264IZU10",
+      "src": {
+        "seq": 9,
+        "code": "OD264IZU10",
+        "name": "골벨로아 하프넥 집업",
+        "category": "집업맨투맨",
+        "colors": [
+          "BRN",
+          "DGY"
+        ],
+        "colorNames": [
+          "브라운",
+          "딥그레이"
+        ],
+        "thumbColor": "BRN",
+        "tag": 99000,
+        "deal": 63000,
+        "final": 49500,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/9.OD264IZU10_BRN.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD263BPT01",
+      "src": {
+        "seq": 10,
+        "code": "OD263BPT01",
+        "name": "에센셜 조거팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "MLG",
+          "NVY",
+          "OTM"
+        ],
+        "colorNames": [
+          "블랙",
+          "멜란지",
+          "네이비",
+          "오트밀"
+        ],
+        "thumbColor": "MLG",
+        "tag": 55000,
+        "deal": 34000,
+        "final": 26100,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263BPT03",
+      "src": {
+        "seq": 11,
+        "code": "OD263BPT03",
+        "name": "카고 조거 저지팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "MLG",
+          "MWH"
+        ],
+        "colorNames": [
+          "블랙",
+          "멜란지",
+          "멜란지 화이트"
+        ],
+        "thumbColor": "BLK",
+        "tag": 59000,
+        "deal": 34000,
+        "final": 26100,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263BPT04",
+      "src": {
+        "seq": 12,
+        "code": "OD263BPT04",
+        "name": "배색 스트레이트 저지팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "BRN",
+          "OTM"
+        ],
+        "colorNames": [
+          "블랙",
+          "브라운",
+          "오트밀"
+        ],
+        "thumbColor": "OTM",
+        "tag": 59000,
+        "deal": 34000,
+        "final": 26100,
+        "note": "추천"
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD264BPT01",
+      "src": {
+        "seq": 13,
+        "code": "OD264BPT01",
+        "name": "폴라플리스 조거 팬츠",
+        "category": "바지",
+        "colors": [
+          "DGY",
+          "MLG",
+          "OTM"
+        ],
+        "colorNames": [
+          "딥그레이",
+          "멜란지",
+          "오트밀"
+        ],
+        "thumbColor": "MLG",
+        "tag": 55000,
+        "deal": 34000,
+        "final": 26100,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/13.OD264BPT01_MLG.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD264BPT10",
+      "src": {
+        "seq": 14,
+        "code": "OD264BPT10",
+        "name": "골벨로아 조거 팬츠",
+        "category": "바지",
+        "colors": [
+          "BRN",
+          "CML",
+          "DGY"
+        ],
+        "colorNames": [
+          "브라운",
+          "카멜",
+          "딥그레이"
+        ],
+        "thumbColor": "DGY",
+        "tag": 59000,
+        "deal": 38000,
+        "final": 29700,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/14.OD264BPT10_DGY.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD264BPT04",
+      "src": {
+        "seq": 15,
+        "code": "OD264BPT04",
+        "name": "폴라폴리스 안감 우븐 팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "GRY",
+          "NVY"
+        ],
+        "colorNames": [
+          "블랙",
+          "그레이",
+          "네이비"
+        ],
+        "thumbColor": "BLK",
+        "tag": 89000,
+        "deal": 57000,
+        "final": 44100,
+        "note": "추천"
+      },
+      "edit": {
+        "images": [
+          "누끼컷&사은품/15.OD264BPT04_BLK.png"
+        ]
+      },
+      "removed": false
+    },
+    {
+      "id": "OD263ILS08",
+      "src": {
+        "seq": 16,
+        "code": "OD263ILS08",
+        "name": "라글란 그래픽 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "BLK",
+          "DGY",
+          "MUS"
+        ],
+        "colorNames": [
+          "블랙",
+          "딥그레이",
+          "머스타드"
+        ],
+        "thumbColor": "BLK",
+        "tag": 42000,
+        "deal": 27000,
+        "final": 19800,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS04",
+      "src": {
+        "seq": 17,
+        "code": "OD263ILS04",
+        "name": "소매 그래픽 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "BLK",
+          "CML",
+          "MLG",
+          "OWH"
+        ],
+        "colorNames": [
+          "블랙",
+          "카멜",
+          "멜란지",
+          "오프 화이트"
+        ],
+        "thumbColor": "MLG",
+        "tag": 39000,
+        "deal": 27000,
+        "final": 19800,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS05",
+      "src": {
+        "seq": 18,
+        "code": "OD263ILS05",
+        "name": "크랙 그래픽 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "BLK",
+          "BLU",
+          "IVY"
+        ],
+        "colorNames": [
+          "블랙",
+          "블루",
+          "아이보리"
+        ],
+        "thumbColor": "IVY",
+        "tag": 39000,
+        "deal": 27000,
+        "final": 19800,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS06",
+      "src": {
+        "seq": 19,
+        "code": "OD263ILS06",
+        "name": "어드벤쳐 백그래픽 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "DGY",
+          "LGN",
+          "MWH"
+        ],
+        "colorNames": [
+          "딥그레이",
+          "라이트 그린",
+          "멜란지 화이트"
+        ],
+        "thumbColor": "MWH",
+        "tag": 39000,
+        "deal": 27000,
+        "final": 19800,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILS09",
+      "src": {
+        "seq": 20,
+        "code": "OD263ILS09",
+        "name": "베어 백그래픽 티셔츠",
+        "category": "긴팔",
+        "colors": [
+          "GRY",
+          "MLG",
+          "OTM"
+        ],
+        "colorNames": [
+          "그레이",
+          "멜란지",
+          "오트밀"
+        ],
+        "thumbColor": "GRY",
+        "tag": 39000,
+        "deal": 27000,
+        "final": 19800,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263IMM03",
+      "src": {
+        "seq": 21,
+        "code": "OD263IMM03",
+        "name": "캠핑 백그래픽 맨투맨",
+        "category": "맨투맨",
+        "colors": [
+          "CRE",
+          "MLG",
+          "NVY"
+        ],
+        "colorNames": [
+          "크림",
+          "멜란지",
+          "네이비"
+        ],
+        "thumbColor": "NVY",
+        "tag": 59000,
+        "deal": 36000,
+        "final": 27900,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263IMM02",
+      "src": {
+        "seq": 22,
+        "code": "OD263IMM02",
+        "name": "오프로드 그래픽 맨투맨",
+        "category": "맨투맨",
+        "colors": [
+          "BLK",
+          "LBL",
+          "OTM"
+        ],
+        "colorNames": [
+          "블랙",
+          "라이트블루",
+          "오트밀"
+        ],
+        "thumbColor": "LBL",
+        "tag": 59000,
+        "deal": 38000,
+        "final": 29700,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263IZM04",
+      "src": {
+        "seq": 23,
+        "code": "OD263IZM04",
+        "name": "컬러블록 반집맨투맨",
+        "category": "집업맨투맨",
+        "colors": [
+          "BLK",
+          "BLU",
+          "PNK"
+        ],
+        "colorNames": [
+          "블랙",
+          "블루",
+          "핑크"
+        ],
+        "thumbColor": "BLU",
+        "tag": 65000,
+        "deal": 42000,
+        "final": 33300,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263ILC07",
+      "src": {
+        "seq": 24,
+        "code": "OD263ILC07",
+        "name": "멀티스트라이프 럭비티셔츠",
+        "category": "카라티",
+        "colors": [
+          "BLU",
+          "BRN"
+        ],
+        "colorNames": [
+          "블루",
+          "브라운"
+        ],
+        "thumbColor": "BRN",
+        "tag": 69000,
+        "deal": 45000,
+        "final": 36000,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263BPT02",
+      "src": {
+        "seq": 25,
+        "code": "OD263BPT02",
+        "name": "커브드 저지팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "LBE",
+          "MLG"
+        ],
+        "colorNames": [
+          "블랙",
+          "라이트 베이지",
+          "멜란지"
+        ],
+        "thumbColor": "BLK",
+        "tag": 59000,
+        "deal": 38000,
+        "final": 29700,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263BPT05",
+      "src": {
+        "seq": 26,
+        "code": "OD263BPT05",
+        "name": "세미배기 우븐팬츠",
+        "category": "바지",
+        "colors": [
+          "BEI",
+          "CHC"
+        ],
+        "colorNames": [
+          "베이지",
+          "차콜"
+        ],
+        "thumbColor": "BEI",
+        "tag": 79000,
+        "deal": 49000,
+        "final": 39600,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    },
+    {
+      "id": "OD263BPT06",
+      "src": {
+        "seq": 27,
+        "code": "OD263BPT06",
+        "name": "카고 우븐팬츠",
+        "category": "바지",
+        "colors": [
+          "BLK",
+          "BRN",
+          "KHA"
+        ],
+        "colorNames": [
+          "블랙",
+          "브라운",
+          "카키"
+        ],
+        "thumbColor": "KHA",
+        "tag": 89000,
+        "deal": 58000,
+        "final": 45000,
+        "note": ""
+      },
+      "edit": {},
+      "removed": false
+    }
+  ],
+  "app": "talkdeal-maker",
+  "schema": 1,
+  "round": "261007",
+  "orderManual": false,
+  "source": {
+    "excel": "★(제작요청) 1018 톡딜_인플루언서.xlsx",
+    "sheet": "상품리스트 (2)",
+    "importedAt": "2026-10-07T07:57:30.889Z"
+  },
+  "updatedAt": "2026-10-07T08:20:51.264Z"
+}

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<!-- talkdeal-maker 가 project.json 으로 만든 파일입니다. 여기서 직접 고치지 말고 앱에서 수정하세요. -->
+<title>261007 작업용</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap">
+<style>
+html, body { margin: 0; padding: 0; background: #fff; }
+body { font-family: Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+img { border: 0; }
+</style>
+</head>
+<body>
+<center>
+<!-- ===== promo-banner ===== -->
+<div style="width:890px; margin:0 auto; background:#110b55; font-family:Pretendard,sans-serif; border-radius:30px; overflow:hidden;">
+<div data-cap="01_main_visual">
+<!-- top-bar -->
+<div style="width:890px; height:90px; background:#1a0086; display:flex; align-items:center; justify-content:center; gap:20px;">
+<img src="../공용에셋/outdoor-logo.png" style="height:45px; width:auto;">
+<svg width="16" height="16" viewBox="0 0 16 16" style="display:block;"><path d="M2 2L14 14M14 2L2 14" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+<span style="font-family:Pretendard,sans-serif; font-size:34px; font-weight:800; color:#fff; letter-spacing:-1px;">미소맘</span>
+</div>
+
+<!-- main visual -->
+<div style="width:890px; height:1251px; position:relative; overflow:hidden; background:#241a6e;">
+<img src="main-image.jpg" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0;">
+<div style="position:absolute; left:0; right:0; top:600px; height:651px; background:linear-gradient(to bottom, rgba(17,11,85,0), rgba(0,0,0,0.9));"></div>
+<!-- 쿠폰 티켓 -->
+<div style="position:absolute; top:800px; left:50%; transform:translateX(-50%); width:420px;">
+<div style="background:rgba(45,29,133,0.92); backdrop-filter:blur(8px); border-radius:20px; padding:16px 24px 20px; text-align:center; box-shadow:0 8px 32px rgba(0,0,0,0.4); position:relative; overflow:hidden;">
+<div style="position:absolute; top:50%; left:-10px; transform:translateY(-50%); width:20px; height:20px; background:#110b55; border-radius:50%;"></div>
+<div style="position:absolute; top:50%; right:-10px; transform:translateY(-50%); width:20px; height:20px; background:#110b55; border-radius:50%;"></div>
+<p style="margin:0 0 4px; font-size:18px; font-weight:600; color:#b4a6ff; letter-spacing:1px;">톡채널 플친 전용 쿠폰</p>
+<span style="font-size:48px; font-weight:900; color:#fff; letter-spacing:-1px;">3,000<span style="font-size:28px;">원</span></span>
+</div>
+</div>
+<!-- 프로모 타이틀 -->
+<div style="position:absolute; top:950px; left:0; right:0; text-align:center;">
+<p style="margin:0 0 8px; font-size:80px; font-weight:900; color:#fff; letter-spacing:-2.4px; line-height:1.15; text-shadow:0 4px 16px rgba(17,11,85,0.7);">키즈 가을 패션위크</p>
+<p style="margin:0; font-size:80px; font-weight:900; color:#fff; letter-spacing:-1.6px; line-height:1.15; text-shadow:0 4px 16px rgba(17,11,85,0.7);">공구 특가 OPEN</p>
+</div>
+</div>
+</div>
+
+<!-- kakao-button -->
+<a href="https://pf.kakao.com/_nfxkLT" style="text-decoration:none; display:block;">
+<div data-cap="02_kakao_channel">
+<div style="width:890px; height:142px; background:#fee500; display:flex; align-items:center; justify-content:center; gap:16px;">
+<div style="background:#3c1e0f; padding:6px 12px; border-radius:10px;">
+<span style="font-family:Inter,sans-serif; font-size:22px; font-weight:700; color:#fff; letter-spacing:1px;">TALK</span>
+</div>
+<span style="font-family:Inter,Pretendard,sans-serif; font-size:32px; font-weight:700; color:#3c1e0f;">톡채널 친구추가 바로가기 &gt;&gt;</span>
+</div>
+</div>
+</a>
+
+<div data-cap="03_benefits">
+<div style="width:890px; background:#e8e6e7; padding:60px 24px 0px; box-sizing:border-box; display:flex; flex-direction:column; align-items:center; gap:28px;">
+<p style="margin:0; font-size:64px; font-weight:900; color:#1a0086; letter-spacing:-1.5px;">구매사은품 혜택</p>
+
+<!-- 혜택1 -->
+<div style="width:100%; background:#fff; border-radius:20px; padding:32px; box-sizing:border-box; display:flex; align-items:center; gap:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+<div style="flex:1; min-width:0; text-align:left;">
+<div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+<span style="display:inline-block; background:linear-gradient(135deg,#1a0086,#4a20d0); padding:6px 14px; border-radius:8px; font-size:20px; font-weight:700; color:#fff;">혜택 1</span>
+</div>
+<p style="margin:0 0 6px; font-size:28px; font-weight:700; color:#111;">5만원 이상 구매 시</p>
+<p style="margin:0 0 8px; font-size:36px; font-weight:900; color:#1a0086;">핫팩 파우치 증정</p>
+<p style="margin:0; font-size:20px; color:#888;">(컬러 랜덤)</p>
+</div>
+<div style="flex-shrink:0; display:flex; align-items:center; justify-content:flex-end; gap:6px;">
+<img src="사은품/핫팩파우치/OD265AZZ01_IVY.png" style="width:158px; height:158px; object-fit:contain;">
+<img src="사은품/핫팩파우치/OD265AZZ01_MLG.png" style="width:158px; height:158px; object-fit:contain;">
+</div>
+</div>
+
+<!-- 혜택2 -->
+<div style="width:100%; background:#fff; border-radius:20px; padding:32px; box-sizing:border-box; display:flex; align-items:center; gap:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+<div style="flex:1; min-width:0; text-align:left;">
+<div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+<span style="display:inline-block; background:linear-gradient(135deg,#1a0086,#4a20d0); padding:6px 14px; border-radius:8px; font-size:20px; font-weight:700; color:#fff;">혜택 2</span>
+<span style="display:inline-block; background:#ffe500; padding:6px 14px; border-radius:8px; font-size:20px; font-weight:800; color:#1a0086;">선착순 50명</span>
+</div>
+<p style="margin:0 0 6px; font-size:28px; font-weight:700; color:#111;">10만원 이상 구매 시</p>
+<p style="margin:0 0 8px; font-size:36px; font-weight:900; color:#1a0086;">아웃도어 바디백 증정</p>
+<p style="margin:0; font-size:20px; color:#888;">(컬러 랜덤)</p>
+</div>
+<div style="flex-shrink:0; display:flex; align-items:center; justify-content:flex-end; gap:6px;">
+<img src="사은품/바디백/OD245AAB06_BEI 복사.png" style="width:158px; height:158px; object-fit:contain;">
+<img src="사은품/바디백/OD245AAB06_BLK_800 복사.png" style="width:158px; height:158px; object-fit:contain;">
+</div>
+</div>
+
+<!-- footer -->
+<div style="align-self:stretch; width:890px; margin:32px -24px 0; background:#1a0086; padding:30px 34px; text-align:left; box-sizing:border-box;">
+<p style="margin:0 0 14px; font-size:20px; font-weight:800; color:#fff;">[사은품 배송 유의사항]</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">1. 각 사은품 증정 조건 충족 시, 사은품이 모두 증정됩니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">2. 사은품은 동일 운송장으로 출고되는 주문건에 한하여 지급됩니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">3. 동일 주소지라도 수령인명, 연락처, 주소 정보가 다를 경우 별도 출고되며, 이 경우 주문금액은 합산되지 않습니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">4. 사은품은 소진 시 별도 공지 없이 종료될 수 있습니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">5. 사은품은 실결제금액(할인 적용 후)을 기준으로 지급됩니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">6. 사은품은 행사 기간 내 ID, 수령인명, 연락처, 주소지 등을 종합적으로 확인하여 고객당 1회만 지급됩니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">7. 동일 고객이 여러 건의 주문을 진행하더라도 중복 지급되지 않으며, 주문을 분리하여 결제한 경우에도 사은품은 1회만 제공됩니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">8. 상품 전체 반품 시 사은품도 함께 반품해 주셔야 합니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">9. 미회수 시 사은품 금액이 차감되거나 추가 배송비가 부과될 수 있습니다.</p>
+<p style="margin:0 0 7px; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">10. 교환 시 사은품은 반송하지 않으셔도 되며, 교환 상품만 보내주세요.</p>
+<p style="margin:0; font-size:18px; font-weight:500; color:#c8c2e8; line-height:1.55;">11. 사은품을 함께 보내신 경우에도 사은품은 재지급되지 않습니다.</p>
+</div>
+</div>
+</div>
+
+<div data-cap="04_tokdeal_benefits">
+<div style="width:890px; background:#edeaef; padding:64px 30px 68px; box-sizing:border-box;">
+<!-- 헤더 (중앙) -->
+<div style="text-align:center; margin-bottom:16px;">
+<p style="margin:0 0 18px; font-size:60px; font-weight:900; color:#1a0086; letter-spacing:-2px;">톡딜 혜택</p>
+<div style="display:inline-flex; align-items:center; gap:10px; background:#1a0086; padding:13px 30px; border-radius:100px;">
+<span style="font-size:20px; font-weight:800; color:#a8b4ff; letter-spacing:0.5px;">EVENT</span>
+<span style="font-size:22px; font-weight:700; color:#fff;">10/16(금) 17시 ~ 10/19(월) 23:59</span>
+</div>
+</div>
+
+<!-- 혜택 카드 리스트 -->
+<div style="display:flex; flex-direction:column; gap:20px; margin-top:36px;">
+<!-- 친구추가 쿠폰 -->
+<div style="background:#fff; border-radius:24px; padding:38px 36px; box-sizing:border-box; box-shadow:0 4px 20px rgba(26,0,134,0.06); text-align:left;">
+<span style="display:inline-block; font-size:20px; font-weight:800; color:#1a0086; background:#eceaff; padding:8px 18px; border-radius:100px; margin:0 0 22px;">카카오톡 채널</span>
+<p style="margin:0 0 10px; font-size:26px; font-weight:600; color:#666; line-height:1.4; text-align:left;">‘차일디’ 플러스친구 추가하면</p>
+<p style="margin:0; font-size:46px; font-weight:900; color:#1a0086; letter-spacing:-1.5px; line-height:1.2; text-align:left;">3,000원 쿠폰 즉시 지급</p>
+<p style="margin:16px 0 0; font-size:21px; font-weight:500; color:#9a9aa5; text-align:left;">2만원 이상 구매 시 사용 가능</p>
+</div>
+
+<!-- 카카오 결제 혜택 -->
+<div style="background:#fff; border-radius:24px; padding:38px 36px; box-sizing:border-box; box-shadow:0 4px 20px rgba(26,0,134,0.06); text-align:left;">
+<span style="display:inline-block; font-size:20px; font-weight:800; color:#1a0086; background:#eceaff; padding:8px 18px; border-radius:100px; margin:0 0 28px;">카카오 결제 혜택</span>
+<p style="margin:0 0 26px; font-size:34px; font-weight:900; color:#111; letter-spacing:-1px; line-height:1.3; text-align:left;">쿠폰 + 페이 더블 할인</p>
+<div style="display:flex; flex-direction:column; gap:28px;">
+<div>
+<p style="margin:0 0 14px; font-size:27px; font-weight:800; color:#222; text-align:left;">데일리 쿠폰 발급 <span style="font-size:20px; font-weight:600; color:#9a9aa5;">· 매일 오전 8시 발행, 쿠폰 종류별 일별 1장</span></p>
+<p style="margin:0 0 10px; font-size:34px; font-weight:900; color:#1a0086; letter-spacing:-1px; line-height:1.25; text-align:left;">2만원 이상 2,000원</p>
+<p style="margin:0 0 10px; font-size:34px; font-weight:900; color:#1a0086; letter-spacing:-1px; line-height:1.25; text-align:left;">5만원 이상 5,000원</p>
+<p style="margin:0; font-size:34px; font-weight:900; color:#1a0086; letter-spacing:-1px; line-height:1.25; text-align:left;">10만원 이상 1만원</p>
+</div>
+<div style="height:1px; background:#eee;"></div>
+<div>
+<p style="margin:0 0 14px; font-size:27px; font-weight:800; color:#222; text-align:left;">페이 할인 <span style="font-size:20px; font-weight:600; color:#9a9aa5;">· 횟수 무제한 / 카카오페이 스킴끼리는 중복 불가</span></p>
+<p style="margin:0 0 10px; font-size:34px; font-weight:900; color:#1a0086; letter-spacing:-1px; line-height:1.25; text-align:left;">2만원 이상 10% 최대 1만원 할인 <span style="font-size:22px; font-weight:600; color:#a5a5af;">(카카오페이머니 결제 시)</span></p>
+<p style="margin:0; font-size:34px; font-weight:900; color:#1a0086; letter-spacing:-1px; line-height:1.25; text-align:left;">20만원 이상 상품 결제 시 7% 최대 30만원 <span style="font-size:22px; font-weight:600; color:#a5a5af;">(카카오페이 머니/카드)</span></p>
+</div>
+</div>
+</div>
+
+<!-- 무료배송 -->
+<div style="background:#1a0086; border-radius:24px; padding:34px; box-sizing:border-box; display:flex; align-items:center; justify-content:center; gap:14px;">
+<span style="font-size:40px; line-height:1;">🚚</span>
+<p style="margin:0; font-size:40px; font-weight:900; color:#fff; letter-spacing:-1px;">전 상품 무료배송</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 상품 리스트 (27개) ===== -->
+<table style="width:890px; border-spacing:0; border-collapse:collapse; margin:0 auto;">
+<tbody>
+<tr>
+<td data-card="01" data-id="OD263ODJ02" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/1_OD263ODJ02.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 01</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#f5f0e8; border:1px solid #ddd;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#5090c0;"></div>
+</div>
+<img src="상품이미지/1.OD263ODJ02_CRE.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">경량 다운 자켓</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, CRE, SBL</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">129,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">54%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">74,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">59,400원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="02" data-id="OD263OVT03" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/2_OD263OVT03.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 02</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#d4b896;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#4a4a4a;"></div>
+</div>
+<img src="상품이미지/2.OD263OVT03_CHC.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">경량 다운베스트</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BEI, CHC</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">119,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">52%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">71,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">56,700원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="03" data-id="OD263ILS01" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/3_OD263ILS01.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 03</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#2e6eb5;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#1a2050;"></div>
+</div>
+<img src="상품이미지/3.OD263ILS01_BLU.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">멀티 스트라이프 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLU, BRN, NVY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">45,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">56%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="04" data-id="OD263ILS02" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/4_OD263ILS02.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 04</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#9a9a6a;"></div>
+</div>
+<img src="상품이미지/4.OD263ILS02_DGY.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">단스트라이프 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">DGY, LKH</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">45,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">56%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="05" data-id="OD263ILS03" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/5_OD263ILS03.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 05</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#2e6eb5;"></div>
+</div>
+<img src="상품이미지/5.OD263ILS03_BLK.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">배색 레이어드 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, BLU</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">42,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">53%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="06" data-id="OD264IMM01" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/6_OD264IMM01.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 06</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="누끼컷&amp;사은품/6.OD264IMM01_OTM.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">폴라플리스 포켓 맨투맨</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">DGY, MLG, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">55,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">51%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">35,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">27,000원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="07" data-id="OD264IZM07" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/7_OD264IZM07.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 07</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="누끼컷&amp;사은품/7.OD264IZM07_MLG.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">폴라플리스 배색 반집업</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">MLG, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">62,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">40,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">31,500원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="08" data-id="OD264IZM08" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/8_OD264IZM08.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 08</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#d4b896;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#1a2050;"></div>
+</div>
+<img src="누끼컷&amp;사은품/8.OD264IZM08_NVY.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">폴라폴리스 패턴 스냅 풀오버</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BEI, NVY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">79,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">51%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">51,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">38,700원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="09" data-id="OD264IZU10" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/9_OD264IZU10.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 09</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+</div>
+<img src="누끼컷&amp;사은품/9.OD264IZU10_BRN.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">골벨로아 하프넥 집업</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BRN, DGY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">99,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">63,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">49,500원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="10" data-id="OD263BPT01" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/10_OD263BPT01.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 10</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#1a2050;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="상품이미지/10.OD263BPT01_MLG.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">에센셜 조거팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, MLG, NVY, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">55,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">53%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">34,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">26,100원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="11" data-id="OD263BPT03" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/11_OD263BPT03.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 11</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#f0ebe5; border:1px solid #ddd;"></div>
+</div>
+<img src="상품이미지/11.OD263BPT03_BLK.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">카고 조거 저지팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, MLG, MWH</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">56%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">34,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">26,100원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="12" data-id="OD263BPT04" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/12_OD263BPT04.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 12</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="상품이미지/12.OD263BPT04_OTM.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">배색 스트레이트 저지팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, BRN, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">56%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">34,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">26,100원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="13" data-id="OD264BPT01" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/13_OD264BPT01.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 13</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="누끼컷&amp;사은품/13.OD264BPT01_MLG.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">폴라플리스 조거 팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">DGY, MLG, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">55,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">53%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">34,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">26,100원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="14" data-id="OD264BPT10" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/14_OD264BPT10.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 14</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#A36953;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+</div>
+<img src="누끼컷&amp;사은품/14.OD264BPT10_DGY.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">골벨로아 조거 팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BRN, CML, DGY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">38,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">29,700원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="15" data-id="OD264BPT04" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/15_OD264BPT04.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 15</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+<div style="position:absolute; top:10px; left:10px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; z-index:3;">
+<img src="../공용에셋/recommend.png" style="width:64px; height:64px; object-fit:contain; display:block;">
+</div>
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#999999;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#1a2050;"></div>
+</div>
+<img src="누끼컷&amp;사은품/15.OD264BPT04_BLK.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">폴라폴리스 안감 우븐 팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, GRY, NVY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">89,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">57,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">44,100원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="16" data-id="OD263ILS08" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/16_OD263ILS08.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 16</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8a030;"></div>
+</div>
+<img src="상품이미지/16.OD263ILS08_BLK.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">라글란 그래픽 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, DGY, MUS</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">42,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">53%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="17" data-id="OD263ILS04" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/17_OD263ILS04.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 17</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#A36953;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#fafaf5; border:1px solid #ddd;"></div>
+</div>
+<img src="상품이미지/17.OD263ILS04_MLG.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">소매 그래픽 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, CML, MLG, OWH</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">39,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="18" data-id="OD263ILS05" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/18_OD263ILS05.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 18</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#2e6eb5;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#f5f0e0; border:1px solid #ddd;"></div>
+</div>
+<img src="상품이미지/18.OD263ILS05_IVY.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">크랙 그래픽 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, BLU, IVY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">39,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="19" data-id="OD263ILS06" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/19_OD263ILS06.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 19</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#555555;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#EEF2D5; border:1px solid #ddd;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#f0ebe5; border:1px solid #ddd;"></div>
+</div>
+<img src="상품이미지/19-1.OD263ILS06_MWH.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+<img src="상품이미지/19-2.OD263ILS06_MWH.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">어드벤쳐 백그래픽 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">DGY, LGN, MWH</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">39,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="20" data-id="OD263ILS09" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/20_OD263ILS09.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 20</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#999999;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="상품이미지/20-1.OD263ILS09_GRY.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+<img src="상품이미지/20-2.OD263ILS09_GRY.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">베어 백그래픽 티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">GRY, MLG, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">39,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">27,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">19,800원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="21" data-id="OD263IMM03" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/21_OD263IMM03.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 21</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#f5f0e8; border:1px solid #ddd;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#1a2050;"></div>
+</div>
+<img src="상품이미지/21-1.OD263IMM03_NVY.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+<img src="상품이미지/21-2.OD263IMM03_NVY.png" style="max-width:48%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">캠핑 백그래픽 맨투맨</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">CRE, MLG, NVY</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">53%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">36,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">27,900원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="22" data-id="OD263IMM02" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/22_OD263IMM02.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 22</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#8ab8e0;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#d8c0a0;"></div>
+</div>
+<img src="상품이미지/22.OD263IMM02_LBL.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">오프로드 그래픽 맨투맨</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, LBL, OTM</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">38,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">29,700원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="23" data-id="OD263IZM04" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/23_OD263IZM04.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 23</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#2e6eb5;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#e890a8;"></div>
+</div>
+<img src="상품이미지/23.OD263IZM04_BLU.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">컬러블록 반집맨투맨</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, BLU, PNK</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">65,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">42,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">33,300원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="24" data-id="OD263ILC07" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/24_OD263ILC07.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 24</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#2e6eb5;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+</div>
+<img src="상품이미지/24.OD263ILC07_BRN.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">멀티스트라이프 럭비티셔츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLU, BRN</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">69,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">48%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">45,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">36,000원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="25" data-id="OD263BPT02" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/25_OD263BPT02.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 25</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#e8d8c4; border:1px solid #ddd;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#c8c8c8;"></div>
+</div>
+<img src="상품이미지/25.OD263BPT02_BLK.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">커브드 저지팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, LBE, MLG</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">59,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">38,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">29,700원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td data-card="26" data-id="OD263BPT05" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/26_OD263BPT05.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 26</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#d4b896;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#4a4a4a;"></div>
+</div>
+<img src="상품이미지/26.OD263BPT05_BEI.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">세미배기 우븐팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BEI, CHC</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">79,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">50%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">49,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">39,600원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+</tr>
+<tr>
+<td data-card="27" data-id="OD263BPT06" style="width:445px; height:1px; padding:4px; vertical-align:top;">
+<a href="https://img.childy.kr/img/outdoor2026/promotion/2610_kakaotalk_deal/kakao_detail/27_OD263BPT06.html" style="text-decoration:none; color:inherit; display:block; height:100%;">
+<div style="width:100%; height:100%; box-sizing:border-box; background:#fff; border-radius:20px; overflow:hidden; border:1px solid #e5e7eb;">
+<div style="background:#1e3a8a; padding:26px 0; text-align:center;">
+<span style="font-family:Pretendard,sans-serif; font-size:36px; font-weight:800; color:#fff;">구성 27</span>
+</div>
+<div style="background:#f5f6f8; height:300px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:center; position:relative;">
+
+<div style="position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:5px; z-index:1;">
+<div style="width:18px; height:18px; border-radius:50%; background:#111111;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#6b3a2a;"></div>
+<div style="width:18px; height:18px; border-radius:50%; background:#6b6b40;"></div>
+</div>
+<img src="상품이미지/27.OD263BPT06_KHA.png" style="max-width:100%; max-height:100%; object-fit:contain;">
+</div>
+<div style="padding:28px;">
+<p style="font-family:Pretendard,sans-serif; font-size:29px; font-weight:800; color:#111827; margin:0 0 6px 0; line-height:1.3;">카고 우븐팬츠</p>
+<p style="font-family:Pretendard,sans-serif; font-size:22px; color:#8e939d; margin:0 0 18px 0;">BLK, BRN, KHA</p>
+<div style="border-top:1px solid #e5e7eb; padding-top:14px;">
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;"><div><span style="display:inline-block; background:#9ca3af; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">정상가</span><span style="font-family:Pretendard,sans-serif; font-size:26px; color:#8e939d; text-decoration:line-through; vertical-align:middle;">89,000원</span></div><span style="font-family:Pretendard,sans-serif; font-size:40px; font-weight:800; color:#e80000;">49%</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#1e3a8a; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">톡딜가</span><span style="font-family:Pretendard,sans-serif; font-size:30px; font-weight:800; color:#1e3a8a; vertical-align:middle;">58,000원</span></div><div style="display:flex; align-items:center; margin-bottom:8px;"><span style="display:inline-block; background:#dc2626; color:#fff; font-size:18px; font-weight:700; padding:6px 12px; border-radius:6px; margin-right:10px; vertical-align:middle;">최종가</span><span style="font-family:Pretendard,sans-serif; font-size:33px; font-weight:800; color:#dc2626; vertical-align:middle;">45,000원</span></div>
+</div>
+</div>
+</div>
+</a>
+</td>
+<td style="width:445px; padding:4px; vertical-align:top;"></td>
+</tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>
