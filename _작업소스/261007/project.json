@@ -2,7 +2,7 @@
   "createdAt": "2026-10-07T07:53:56.584Z",
   "settings": {
     "serverFolder": "2610_kakaotalk_deal",
-    "s3Base": "https://aws-childy-image.s3.ap-northeast-2.amazonaws.com/img/outdoor2026/promotion",
+    "s3Base": "https://img.childy.kr/img/outdoor2026/promotion",
     "channelUrl": "https://pf.kakao.com/_nfxkLT",
     "finalLabel": "최종가",
     "colorText": "code",
@@ -59,8 +59,9 @@
         "code": ""
       }
     ],
-    "giftNotesTitle": "[사은품 배송 유의사항]",
+    "giftNotesTitle": "[사은품 증정 유의사항]",
     "giftNotes": [
+      "사은품은 고객당 1회 제공됩니다.",
       "각 사은품 증정 조건 충족 시, 사은품이 모두 증정됩니다.",
       "사은품은 동일 운송장으로 출고되는 주문건에 한하여 지급됩니다.",
       "동일 주소지라도 수령인명, 연락처, 주소 정보가 다를 경우 별도 출고되며, 이 경우 주문금액은 합산되지 않습니다.",
@@ -85,10 +86,10 @@
     "pay": {
       "show": true,
       "tag": "카카오 결제 혜택",
-      "headline": "쿠폰 + 페이 더블 할인",
+      "headline": "데일리 쿠폰 발급",
       "groups": [
         {
-          "title": "데일리 쿠폰 발급",
+          "title": "발급 내용",
           "sub": "매일 오전 8시 발행, 쿠폰 종류별 일별 1장",
           "lines": [
             {
@@ -100,7 +101,7 @@
               "note": ""
             },
             {
-              "main": "10만원 이상 1만원",
+              "main": "10만원 이상 10,000원",
               "note": ""
             }
           ]
@@ -150,7 +151,22 @@
         "final": 59400,
         "note": "추천"
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BLK",
+            "hex": "#111111"
+          },
+          {
+            "code": "CRE",
+            "hex": "#f5f0e8"
+          },
+          {
+            "code": "SBL",
+            "hex": "#d1d7f0"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -174,7 +190,18 @@
         "final": 56700,
         "note": "추천"
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BEI",
+            "hex": "#d6c9c1"
+          },
+          {
+            "code": "CHC",
+            "hex": "#4a4a4a"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -200,7 +227,22 @@
         "final": 19800,
         "note": "추천"
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BLU",
+            "hex": "#6693b3"
+          },
+          {
+            "code": "BRN",
+            "hex": "#6b3a2a"
+          },
+          {
+            "code": "NVY",
+            "hex": "#1a2050"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -390,7 +432,26 @@
         "final": 26100,
         "note": "추천"
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BLK",
+            "hex": "#111111"
+          },
+          {
+            "code": "MLG",
+            "hex": "#c8c8c8"
+          },
+          {
+            "code": "NVY",
+            "hex": "#1a2050"
+          },
+          {
+            "code": "OTM",
+            "hex": "#e4e6dc"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -442,7 +503,22 @@
         "final": 26100,
         "note": "추천"
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BLK",
+            "hex": "#111111"
+          },
+          {
+            "code": "BRN",
+            "hex": "#6b3a2a"
+          },
+          {
+            "code": "OTM",
+            "hex": "#e4e6dc"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -471,6 +547,20 @@
       "edit": {
         "images": [
           "누끼컷&사은품/13.OD264BPT01_MLG.png"
+        ],
+        "chips": [
+          {
+            "code": "DGY",
+            "hex": "#555555"
+          },
+          {
+            "code": "MLG",
+            "hex": "#c8c8c8"
+          },
+          {
+            "code": "OTM",
+            "hex": "#e4e6dc"
+          }
         ]
       },
       "removed": false
@@ -664,7 +754,22 @@
         "final": 19800,
         "note": ""
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "GRY",
+            "hex": "#999999"
+          },
+          {
+            "code": "MLG",
+            "hex": "#c8c8c8"
+          },
+          {
+            "code": "OTM",
+            "hex": "#e4e6dc"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -716,7 +821,22 @@
         "final": 29700,
         "note": ""
       },
-      "edit": {},
+      "edit": {
+        "chips": [
+          {
+            "code": "BLK",
+            "hex": "#111111"
+          },
+          {
+            "code": "LBL",
+            "hex": "#8ab8e0"
+          },
+          {
+            "code": "OTM",
+            "hex": "#e4e6dc"
+          }
+        ]
+      },
       "removed": false
     },
     {
@@ -855,5 +975,5 @@
     "sheet": "상품리스트 (2)",
     "importedAt": "2026-10-07T07:57:30.889Z"
   },
-  "updatedAt": "2026-10-07T08:20:51.264Z"
+  "updatedAt": "2026-10-08T04:53:20.703Z"
 }
